@@ -1,6 +1,73 @@
-body {
+body{
+	background: url(../img/pattern.jpg);
+	background-size: 15%;
+	color: #fff;
+}
+section {
 	width: 300px; 
-    padding: 20px; 
-    margin: auto; 
-    background: #fff
+	padding: 50px; 
+	margin: auto;
+}
+form {
+	border: 1px solid #fff;
+	padding: 10px;
+	background: rgba(255,255,255,0.1);
+}
+h1 {
+	margin: 10px;
+	text-shadow: 0 1px 0 #000;
+}
+input,select,textarea {
+	background: rgba(0,0,0,0.4);
+}
+fieldset{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.hobby input{
+	width: 10px;
+}
+.hobby label{
+	display: inline-block;
+	width: calc(100% - 22px);
+}
+.birthday legend, .sex legend{
+	display: inline;
+}
+input[type='text']{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 0px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #777;
+}
+input[type='email']{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 0px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #777;
+}
+input[type='tel']{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 0px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #777;
+}
+textarea{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 0px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #777;
 }
