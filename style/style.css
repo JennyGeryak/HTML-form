@@ -12,10 +12,12 @@ form {
 	border: 1px solid #fff;
 	padding: 10px;
 	background: rgba(255,255,255,0.1);
-	border:#35a5e5 1px solid;
-	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	border:#35a5e5 2px solid;
+	box-shadow: 0 0 10px rgba(81, 203, 238, 1) inset;
+	border-radius: 5px;
+}
+div {
+	box-shadow: 0 0 10px rgba(81, 203, 238, 1);
 	border-radius: 5px;
 }
 h1 {
@@ -82,9 +84,15 @@ textarea{
 input[type='submit'] {
 	border-radius: 5px;
 	border:#FF0000 1px solid;
+	box-shadow: 0 0 5px rgba(255, 0, 0, 1) inset;
+	margin: -5px 0 0 0;
+
+}
+.submit {
+	border:#FF0000 1px solid;
 	box-shadow: 0 0 5px rgba(255, 0, 0, 1);
-	-webkit-box-shadow: 0 0 5px rgba(255, 0, 0, 1);
-	-moz-box-shadow: 0 0 5px rgba(255, 0, 0, 1);
+	border-radius: 5px;
+	display: inline;
 }
 .sex {
 	margin: 5px 0px;
