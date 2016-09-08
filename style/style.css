@@ -44,7 +44,7 @@ fieldset{
 }
 input[type='text']{
 	width: 100%;
-	padding: 10px;
+	padding: 10px 10px 10px 30px;
 	box-sizing: border-box;
 	border-radius: 5px;
 	border: 0px;
@@ -54,16 +54,16 @@ input[type='text']{
 }
 input[type='email']{
 	width: 100%;
-	padding: 10px;
+	padding: 10px 10px 10px 30px;
 	box-sizing: border-box;
 	border-radius: 5px;
 	border: 0px;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #777;
-}
+}	
 input[type='tel']{
 	width: 100%;
-	padding: 10px;
+	padding: 10px 10px 10px 30px;
 	box-sizing: border-box;
 	border-radius: 5px;
 	border: 0px;
@@ -73,7 +73,7 @@ input[type='tel']{
 }
 textarea{
 	width: 100%;
-	padding: 10px;
+	padding: 10px 10px 10px 30px;
 	box-sizing: border-box;
 	border-radius: 5px;
 	border: 0px;
@@ -96,4 +96,22 @@ input[type='submit'] {
 }
 .sex {
 	margin: 5px 0px;
+}
+.go-down{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-shadow: 0 0 10px rgba(81, 203, 238, 1);
+}
+.fa.fa-phone.go-down {
+	margin-top: 15px;
+}
+.fa.fa-child.go-down {
+	margin-top: 13px;
+}
+.fa.fa-commenting.go-down {
+	margin-top: 15px;
+}
+input[required="required"]{
+	background: rgba(0,0,0,0.4) url(../img/asterisk.png) calc(100% - 2px) 2px no-repeat;
 }

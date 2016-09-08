@@ -4,13 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="style/style.css">
+	<script src="https://use.fontawesome.com/25d8b98ff4.js"></script>
 </head>
 <body>
 	<section>
 	<div>
 		<form action="">
 			<h1>Contact us</h1>
-			<input name="fullname" 
+			<i class="fa fa-child go-down" aria-hidden="true"></i>
+			<input name="fullname"
 						pattern="[A-Za-z]*\s[A-Za-z]*" 
 						placeholder="Full Name"
 						title='Full name (Format: Full Name)' 
@@ -101,13 +103,15 @@
 				</legend>
 				<input type="radio" name="answer" value="a1" id="male"><label for="male">male</label>
 				<input type="radio" name="answer" value="a2" id="female"><label for="female">female</label>
-			</fieldset>
+			</fieldset> 
+			<i class="fa fa-globe go-down" aria-hidden="true"></i>
 			<input name="email" 
 							pattern="[A-Za-z0-9\.]*[\@][A-Za-z]*[\.][A-Za-z]*" 
 							placeholder="E-mail: name@domain.com" 
 							required="required"
 							title='Email (Format: name@domain.com)' 
 							type="email"> 
+			<i class="fa fa-phone go-down" aria-hidden="true"></i>
 			<input pattern="[[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}" 
 						placeholder="Phone: (***)***-**-**" 
 						required="required"
@@ -122,7 +126,8 @@
 				<input type="checkbox" name="vehicle2" value="Books" id="books"> <label for="books">read books</label>
 				<input type="checkbox" name="vehicle2" value="Knitting" id="knitting"> <label for="knitting">knit caps</label> 
 			</fieldset>
-			<textarea name="about_me" id="" cols="30" rows="10" placeholder="About me"></textarea>
+			<i class="fa fa-commenting go-down" aria-hidden="true"></i>
+			<textarea name="about_me" id="" cols="30" rows="5" placeholder="About me"></textarea>
 			<div class="submit">
 				<input type="submit" value="submit">
 			</div>	
