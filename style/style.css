@@ -85,14 +85,17 @@ input[type='submit'] {
 	border-radius: 5px;
 	border:#FF0000 1px solid;
 	box-shadow: 0 0 5px rgba(255, 0, 0, 1) inset;
-	margin: -5px 0 0 0;
-
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 10px rgba(255, 0, 0, 1) ;
+	padding: 10px;
+	display: inline-block;
 }
 .submit {
 	border:#FF0000 1px solid;
 	box-shadow: 0 0 5px rgba(255, 0, 0, 1);
 	border-radius: 5px;
-	display: inline;
+	display: inline-block;
 }
 .sex {
 	margin: 5px 0px;
@@ -114,4 +117,17 @@ input[type='submit'] {
 }
 input[required="required"]{
 	background: rgba(0,0,0,0.4) url(../img/asterisk.png) calc(100% - 2px) 2px no-repeat;
+}
+.required {
+	display: inline-block;
+	box-shadow: none;
+}
+.formfooter {
+	text-align: justify;
+	box-shadow: none;
+}
+.formfooter:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
 }
