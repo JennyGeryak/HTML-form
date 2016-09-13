@@ -43,11 +43,45 @@ fieldset{
 }
 .birthday legend, .sex legend{
 	display: inline;
+	margin: 0px 5px 0px 0px;
 }
 .birthday select {
 	color: #fff;
 	border-radius: 5px;
+	padding: 7px;
 }
+.sex label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 15px;
+	margin-right: 15px;
+	font-size: 13px;
+}
+input[type='radio'] {
+	display: none;
+}
+.sex label:before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+	border-radius: 8px;
+}
+input[type=radio]:checked + label:before {
+	content: "\2022";
+	color: #f3f3f3;
+	font-size: 30px;
+	text-align: center;
+	line-height: 18px;
+}
+
 input[type='text']{
 	width: 100%;
 	padding: 10px 10px 10px 30px;
@@ -76,6 +110,37 @@ input[type='tel']{
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #777;
 	margin: 5px 0px; 
+}
+.hobby label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 15px;
+	margin-right: 15px;
+	font-size: 13px;
+}
+input[type='checkbox'] {
+	display: none;
+}
+.hobby label:before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+	border-radius: 3px;
+}
+input[type=checkbox]:checked + label:before {
+	content: "\2022";
+	color: #f3f3f3;
+	font-size: 30px;
+	text-align: center;
+	line-height: 18px;
 }
 textarea{
 	width: 100%;
