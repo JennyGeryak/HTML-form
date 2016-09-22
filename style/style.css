@@ -20,6 +20,18 @@ div {
 	box-shadow: 0 0 10px rgba(81, 203, 238, 1);
 	border-radius: 5px;
 }
+div.shadow {
+	position: relative;
+}
+div.shadow:after {
+	content: "";
+	display: block;
+	width: 120%;
+	height: 50px;
+	background: #fff;
+	position: absolute; 
+	left: -10%;
+}
 h1 {
 	margin: 10px;
 	text-shadow: 0 1px 0 #000;
