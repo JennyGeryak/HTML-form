@@ -28,9 +28,11 @@ div.shadow:after {
 	display: block;
 	width: 120%;
 	height: 50px;
-	background: #fff;
+	background: #444;
+	background: radial-gradient(rgba(0,0,0,0.5) 5%, transparent 60%);
 	position: absolute; 
 	left: -10%;
+	border-radius: 50%;
 }
 h1 {
 	margin: 10px;
