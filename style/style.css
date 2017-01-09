@@ -203,6 +203,9 @@ input[type='submit'] {
 .fa.fa-commenting.go-down {
 	margin-top: 15px;
 }
+.fa {
+	display: block;
+}
 input[required="required"]{
 	background: rgba(0,0,0,0.4) url(../img/asterisk.png) calc(100% - 2px) 2px no-repeat;
 }
