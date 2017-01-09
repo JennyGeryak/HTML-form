@@ -112,7 +112,7 @@
 							title='Email (Format: name@domain.com)' 
 							type="email"> 
 			<i class="fa fa-phone go-down" aria-hidden="true"></i>
-			<input pattern="[[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}" 
+			<input pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" 
 						placeholder="Phone: (***)***-**-**" 
 						required="required"
 						title='Phone Number (Format: (999)999-99-99)' 
