@@ -19,18 +19,18 @@ public class Form_test {
   public void setUp() throws Exception {
 	System.setProperty("webdriver.gecko.driver", "D:\\test_enviroment\\geckodriver.exe");
     driver = new FirefoxDriver();
-    baseUrl = "http://s.codepen.io/";
+    baseUrl = "https://jennygeryak.github.io/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
   @Test
-  public void testUntitled2() throws Exception {
-    driver.get(baseUrl + "/JennyGeryak/debug/qqXrBJ/LQMExVzXjeJk");
+  public void testUntitled() throws Exception {
+    driver.get(baseUrl + "/html_form/");
     driver.findElement(By.name("fullname")).clear();
     driver.findElement(By.name("fullname")).sendKeys("Jane Geryak");
-    new Select(driver.findElement(By.name("day"))).selectByVisibleText("6");
+    new Select(driver.findElement(By.name("day"))).selectByVisibleText("9");
     new Select(driver.findElement(By.name("month"))).selectByVisibleText("April");
-    new Select(driver.findElement(By.name("year"))).selectByVisibleText("1997");
+    new Select(driver.findElement(By.name("year"))).selectByVisibleText("1996");
     driver.findElement(By.id("female")).click();
     driver.findElement(By.name("email")).clear();
     driver.findElement(By.name("email")).sendKeys("janegeryak@gmail.com");
@@ -39,7 +39,7 @@ public class Form_test {
     driver.findElement(By.id("music")).click();
     driver.findElement(By.id("books")).click();
     driver.findElement(By.name("about_me")).clear();
-    driver.findElement(By.name("about_me")).sendKeys("some information about me");
+    driver.findElement(By.name("about_me")).sendKeys("this is test");
   }
 
   @After
