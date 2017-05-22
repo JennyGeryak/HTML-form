@@ -14,4 +14,4 @@
 
 [Demo](http://s.codepen.io/JennyGeryak/debug/qqXrBJ)
 
-Preview: ![Alt Text] (https://github.com/JennyGeryak/HTML-form/blob/master/img/screen.jpg)
+Preview: ![Alt Text](https://github.com/JennyGeryak/HTML-form/blob/master/img/screen.jpg)
